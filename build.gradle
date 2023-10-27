@@ -22,8 +22,8 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 
-sourceCompatibility = 16
-targetCompatibility = 16
+sourceCompatibility = 11
+targetCompatibility = 11
 
 ext {
     serenity_version = '4.0.1'
@@ -38,6 +38,7 @@ ext {
 
 dependencies {
     dependencies {
+
         testImplementation "net.serenity-bdd:serenity-core:${serenity_version}"
         testImplementation "net.serenity-bdd:serenity-cucumber:${serenity_version}"
         testImplementation "net.serenity-bdd:serenity-screenplay:${serenity_version}"
