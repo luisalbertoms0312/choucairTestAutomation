@@ -5,11 +5,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features="src/test/resources/features/demo.feature",
+        features="src/test/resources/features/create_new_user.feature",
         tags="@tag1",
-        glue="co.com.choucair.certification.choucairTest/stepdefinitions",
-        snippets= CucumberOptions.SnippetType.CAMELCASE
-
-)
+        glue="co.com.choucair.certification.choucairTest.stepdefinitions"
+      )
 public class FlowNewUser {
 }

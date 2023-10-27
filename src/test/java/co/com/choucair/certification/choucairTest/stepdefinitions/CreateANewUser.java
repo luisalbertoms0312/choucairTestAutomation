@@ -1,6 +1,6 @@
-package co.com.choucair.certification.choucairTest.starter.stepdefinitions;
-import co.com.choucair.certification.choucairTest.starter.navigation.FlowNewUser;
-import co.com.choucair.certification.choucairTest.starter.navigation.NavigateTo;
+package co.com.choucair.certification.choucairTest.stepdefinitions;
+import co.com.choucair.certification.choucairTest.navigation.FlowNewUser;
+import co.com.choucair.certification.choucairTest.navigation.NavigateTo;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;

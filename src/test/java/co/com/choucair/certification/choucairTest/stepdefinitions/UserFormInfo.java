@@ -1,0 +1,15 @@
+package co.com.choucair.certification.choucairTest.stepdefinitions;
+
+import co.com.choucair.certification.choucairTest.userform.DoAboutYourself;
+import io.cucumber.java.en.And;
+import net.serenitybdd.screenplay.Actor;
+
+public class UserFormInfo {
+
+    @And("{actor} fill the section about yourself")
+    public void he_fill_the_section_about_yourself(Actor actor){
+        actor.attemptsTo(
+                DoAboutYourself.addInformation("Luis", "Mendez", "luisalbertoms0312@gmail.com")
+        );
+    }
+}
