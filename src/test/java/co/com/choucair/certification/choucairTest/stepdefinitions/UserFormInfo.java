@@ -1,11 +1,10 @@
 package co.com.choucair.certification.choucairTest.stepdefinitions;
-
 import co.com.choucair.certification.choucairTest.userform.DoAboutYourAddress;
 import co.com.choucair.certification.choucairTest.userform.DoAboutYourDevices;
 import co.com.choucair.certification.choucairTest.userform.DoAboutYourself;
+import co.com.choucair.certification.choucairTest.userform.DoLastStep;
 import io.cucumber.java.en.And;
 import net.serenitybdd.screenplay.Actor;
-
 public class UserFormInfo {
 
     @And("{actor} fill the section about yourself")
@@ -23,6 +22,11 @@ public class UserFormInfo {
     public void he_fill_the_section_about_devices(Actor actor){
         actor.attemptsTo(
                 DoAboutYourDevices.addInformation("Windows", "10", "Spanish")
+        );
+    }  @And("{actor} setup the password and finish the process")
+    public void he_setup_the_password_and_finish_the_process(Actor actor){
+        actor.attemptsTo(
+                DoLastStep.addInformation("27Ca1027ut10$*", "27Ca1027ut10$*")
         );
     }
 }
