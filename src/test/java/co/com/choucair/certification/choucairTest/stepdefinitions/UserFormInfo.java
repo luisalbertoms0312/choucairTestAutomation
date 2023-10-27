@@ -7,7 +7,7 @@ public class UserFormInfo {
     @And("{actor} fill the section about yourself")
     public void he_fill_the_section_about_yourself(Actor actor){
         actor.attemptsTo(
-                DoAboutYourself.addInformation("Luis", "Mendez", "email-test@gmail.com")
+                DoAboutYourself.addInformation("Luis", "Mendez", "email-testing@gmail.com")
         );
     } @And("{actor} fill the section about address")
     public void he_fill_the_section_about_address(Actor actor){
