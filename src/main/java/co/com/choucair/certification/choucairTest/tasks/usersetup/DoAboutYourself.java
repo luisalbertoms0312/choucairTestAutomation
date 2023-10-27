@@ -1,5 +1,5 @@
-package co.com.choucair.certification.choucairTest.usersetup;
-import co.com.choucair.certification.choucairTest.userform.AboutYourself;
+package co.com.choucair.certification.choucairTest.tasks.usersetup;
+import co.com.choucair.certification.choucairTest.userinterface.userform.AboutYourself;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import static co.com.choucair.certification.choucairTest.userform.AboutYourself.LOCATOR_ABOUT_YOURSELF_TITLE;
+import static co.com.choucair.certification.choucairTest.userinterface.userform.AboutYourself.LOCATOR_ABOUT_YOURSELF_TITLE;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 public class DoAboutYourself implements Task {
     private final String username;

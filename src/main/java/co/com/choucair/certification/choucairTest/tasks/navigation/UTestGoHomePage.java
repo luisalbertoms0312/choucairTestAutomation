@@ -1,4 +1,4 @@
-package co.com.choucair.certification.choucairTest.navigation;
+package co.com.choucair.certification.choucairTest.tasks.navigation;
 import net.serenitybdd.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;

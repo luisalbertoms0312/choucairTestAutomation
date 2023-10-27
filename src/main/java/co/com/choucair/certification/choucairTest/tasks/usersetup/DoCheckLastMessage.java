@@ -1,11 +1,11 @@
-package co.com.choucair.certification.choucairTest.usersetup;
+package co.com.choucair.certification.choucairTest.tasks.usersetup;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import static co.com.choucair.certification.choucairTest.userform.AboutCheckLastMessage.LOCATOR_ABOUT_LAST_MESSAGE;
+import static co.com.choucair.certification.choucairTest.userinterface.lastpage.AboutCheckLastMessage.LOCATOR_ABOUT_LAST_MESSAGE;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 public class DoCheckLastMessage implements Task {
     public static Performable validateMessage(){

@@ -1,5 +1,5 @@
-package co.com.choucair.certification.choucairTest.usersetup;
-import co.com.choucair.certification.choucairTest.userform.AboutYourDevices;
+package co.com.choucair.certification.choucairTest.tasks.usersetup;
+import co.com.choucair.certification.choucairTest.userinterface.userform.AboutYourDevices;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import static co.com.choucair.certification.choucairTest.userform.AboutYourDevices.*;
+import static co.com.choucair.certification.choucairTest.userinterface.userform.AboutYourDevices.*;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 public class DoAboutYourDevices implements Task {
     public final String kindSO;

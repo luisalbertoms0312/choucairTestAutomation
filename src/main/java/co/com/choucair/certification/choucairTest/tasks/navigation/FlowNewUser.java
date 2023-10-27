@@ -1,12 +1,11 @@
-package co.com.choucair.certification.choucairTest.navigation;
+package co.com.choucair.certification.choucairTest.tasks.navigation;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import static co.com.choucair.certification.choucairTest.navigation.UTestGoHomePage.LOCATOR_BECOME_BTN;
-import static co.com.choucair.certification.choucairTest.navigation.UTestGoHomePage.LOCATOR_MAIN_TITLE;
+
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 public class FlowNewUser implements Task {
 
@@ -17,8 +16,8 @@ public class FlowNewUser implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                WaitUntil.the(LOCATOR_MAIN_TITLE, WebElementStateMatchers.isVisible()).forNoMoreThan(5000).milliseconds(),
-                Click.on(LOCATOR_BECOME_BTN)
+                WaitUntil.the(UTestGoHomePage.LOCATOR_MAIN_TITLE, WebElementStateMatchers.isVisible()).forNoMoreThan(5000).milliseconds(),
+                Click.on(UTestGoHomePage.LOCATOR_BECOME_BTN)
         );
 
     }

@@ -1,4 +1,4 @@
-package co.com.choucair.certification.choucairTest.navigation;
+package co.com.choucair.certification.choucairTest.tasks.navigation;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;

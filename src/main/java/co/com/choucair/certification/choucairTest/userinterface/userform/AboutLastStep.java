@@ -1,4 +1,4 @@
-package co.com.choucair.certification.choucairTest.userform;
+package co.com.choucair.certification.choucairTest.userinterface.userform;
 import org.openqa.selenium.By;
 
 public class AboutLastStep {
