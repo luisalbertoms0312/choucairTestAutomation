@@ -1,8 +1,5 @@
 package co.com.choucair.certification.choucairTest.stepdefinitions;
-import co.com.choucair.certification.choucairTest.userform.DoAboutYourAddress;
-import co.com.choucair.certification.choucairTest.userform.DoAboutYourDevices;
-import co.com.choucair.certification.choucairTest.userform.DoAboutYourself;
-import co.com.choucair.certification.choucairTest.userform.DoLastStep;
+import co.com.choucair.certification.choucairTest.usersetup.*;
 import io.cucumber.java.en.And;
 import net.serenitybdd.screenplay.Actor;
 public class UserFormInfo {
@@ -10,7 +7,7 @@ public class UserFormInfo {
     @And("{actor} fill the section about yourself")
     public void he_fill_the_section_about_yourself(Actor actor){
         actor.attemptsTo(
-                DoAboutYourself.addInformation("Luis", "Mendez", "luisalbertoms0312@gmail.com")
+                DoAboutYourself.addInformation("Luis", "Mendez", "email-test@gmail.com")
         );
     } @And("{actor} fill the section about address")
     public void he_fill_the_section_about_address(Actor actor){
@@ -27,6 +24,11 @@ public class UserFormInfo {
     public void he_setup_the_password_and_finish_the_process(Actor actor){
         actor.attemptsTo(
                 DoLastStep.addInformation("27Ca1027ut10$*", "27Ca1027ut10$*")
+        );
+    }@And("{actor} should be to see message about software testers")
+    public void he_should_be_to_see_message_about_software_testers(Actor actor){
+        actor.attemptsTo(
+                DoCheckLastMessage.validateMessage()
         );
     }
 }

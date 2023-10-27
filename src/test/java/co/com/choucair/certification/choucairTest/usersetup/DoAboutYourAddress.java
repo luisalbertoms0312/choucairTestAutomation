@@ -1,4 +1,5 @@
-package co.com.choucair.certification.choucairTest.userform;
+package co.com.choucair.certification.choucairTest.usersetup;
+import co.com.choucair.certification.choucairTest.userform.AboutYourAddress;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
@@ -6,10 +7,8 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-
 import static co.com.choucair.certification.choucairTest.userform.AboutYourAddress.LOCATOR_ABOUT_ADDRESS_TITLE;
 import static co.com.choucair.certification.choucairTest.userform.AboutYourAddress.LOCATOR_DEVICES;
-import static co.com.choucair.certification.choucairTest.userform.AboutYourself.LOCATOR_ABOUT_YOURSELF_TITLE;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class DoAboutYourAddress implements Task {

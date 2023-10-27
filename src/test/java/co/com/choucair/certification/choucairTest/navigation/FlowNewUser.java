@@ -5,8 +5,8 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import static co.com.choucair.certification.choucairTest.starter.navigation.UTestGoHomePage.LOCATOR_BECOME_BTN;
-import static co.com.choucair.certification.choucairTest.starter.navigation.UTestGoHomePage.LOCATOR_MAIN_TITLE;
+import static co.com.choucair.certification.choucairTest.navigation.UTestGoHomePage.LOCATOR_BECOME_BTN;
+import static co.com.choucair.certification.choucairTest.navigation.UTestGoHomePage.LOCATOR_MAIN_TITLE;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 public class FlowNewUser implements Task {
 

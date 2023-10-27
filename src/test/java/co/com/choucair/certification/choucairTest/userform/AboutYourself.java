@@ -1,6 +1,5 @@
 package co.com.choucair.certification.choucairTest.userform;
 import org.openqa.selenium.By;
-
 public class AboutYourself {
     public static By LOCATOR_ABOUT_YOURSELF_TITLE = By.className("sub-title");
     public static By LOCATOR_FIRST_NAME = By.id("firstName");

@@ -1,5 +1,4 @@
 package co.com.choucair.certification.choucairTest.userform;
-
 import org.openqa.selenium.By;
 
 public class AboutYourDevices {

@@ -8,5 +8,6 @@ Feature: Go to the Utest website and carry out the flow to create a new user.
     And he fill the section about address
     And he fill the section about devices
     And he setup the password and finish the process
+    Then he should be to see message about software testers
 
 

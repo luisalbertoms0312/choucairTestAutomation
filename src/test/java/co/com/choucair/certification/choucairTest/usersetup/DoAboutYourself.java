@@ -1,4 +1,5 @@
-package co.com.choucair.certification.choucairTest.userform;
+package co.com.choucair.certification.choucairTest.usersetup;
+import co.com.choucair.certification.choucairTest.userform.AboutYourself;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
